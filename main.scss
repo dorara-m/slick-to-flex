@@ -1,0 +1,42 @@
+// 見やすくするための装飾
+.bg {
+  background-color: #999;
+}
+.wrap {
+  width: 300px;
+  margin: 50px auto;
+}
+img {
+  max-width: 100%;
+}
+a {
+  display: block;
+  text-decoration: none;
+  color: #444;
+  border: 1px solid #ddd;
+}
+
+// slick系
+.slide_item {
+  padding: 12px;
+}
+
+
+// 以下調整のためのスタイル
+.fix {
+  .slide_item {
+    float: none;
+    height: auto;
+  }
+  .slick-track {
+    display: flex;
+  }
+  .slide_item_inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    a {
+      margin-top: auto;
+    }
+  }
+}

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>jsをflexboxにして底揃えを実現する</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+  <link rel="stylesheet" href="main.css">
+
+  <script src="https://code.jquery.com/jquery-3.5.0.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="main.js" defer></script>
+</head>
+
+<body>
+  <h1>slick.jsをflexboxにして底揃えを実現する</h1>
+  <p>以下の詳しくボタンを高さに依存せず底に固定したい</p>
+  <h2>調整前</h2>
+  <div class="bg">
+    <div class="wrap">
+      <div class="slide js-slick">
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム1</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム2ながいやつながいやつながいやつ</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム3</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム4ちゅうくらいぽよ</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h2>調整後</h2>
+  <div class="bg">
+    <div class="wrap fix">
+      <div class="slide js-slick">
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム1</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム2ながいやつながいやつながいやつ</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム3</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+        <div class="slide_item">
+          <div class="slide_item_inner">
+            <img src="https://placehold.jp/200x200.png" alt="">
+            <h3>アイテム4ちゅうくらいぽよ</h3>
+            <a href="#">詳しく</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
